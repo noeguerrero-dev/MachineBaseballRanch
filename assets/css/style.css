@@ -346,8 +346,19 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     background-attachment: fixed;
   }
+  .logo-responsive{
+    width: 100%;
+    height: auto;
+  }
 }
 @media (max-width: 768px) {
+  #hero{
+    background-attachment: fixed;
+  }
+  .logo-responsive{
+    width: 100%;
+    height: auto;
+  }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -686,7 +697,24 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
-
+.portfolio-details .portfolio-description .btn-get-started {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 3px;
+  margin: 10px;
+  color: #fff;
+  background: #d81111;
+}
+.portfolio-details .portfolio-description .btn-get-started:hover {
+  transition: 0.5s;
+  background: #fff;
+  color: #d81111;
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -1301,4 +1329,4 @@ section {
   text-align: center;
   font-size: 13px;
   padding-top: 5px;
-}
+} 
